@@ -14,3 +14,7 @@
     width: 80%;
     height: fit-content;
 }
+
+.swiper-slide img{
+    width: 100%;
+}
