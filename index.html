@@ -7,8 +7,29 @@
     <title>Image Slideshow</title>
     <script defer src="index.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
-    <div class="container"></div>
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/pexels-dids-1741517.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/pexels-karolina-grabowska-4498196.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/pexels-lisa-fotios-1308718.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/pexels-rrinna-2071555.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/pexels-zen-chung-5745219.jpg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 </html>
